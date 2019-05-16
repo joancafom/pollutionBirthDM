@@ -149,6 +149,23 @@ def prettify_peson(int_peson):
 
     return res
 
+def classify_peson(int_peson):
+
+    res = int_peson
+    
+    if int_peson != '    ':
+    
+        if float(int_peson) <= 2.000:
+            res = 'Bebé pequeño'
+            
+        elif float(int_peson) > 2.000 and float(int_peson) < 4.000:
+            res = 'Bebé normal'
+        
+        else:
+            res = 'Bebé grande'
+    
+    return res
+
 if __name__ == '__main__':
 
     births_data_path = get_file_path(BIRTHS_DATA)
@@ -542,7 +559,9 @@ if __name__ == '__main__':
             csv_line.append(prettify_sexo(sexo))
             #print('Sexo del Nacido: ' + sexo)
             peson = line[0][167:171]
-            csv_line.append(prettify_peson(peson))
+            pretty_peson = prettify_peson(peson)
+            csv_line.append(pretty_peson)
+            csv_line.append(classify_peson(pretty_peson))
             #print('Peso del Nacido: ' + peson)
             v24hn = line[0][171:172]
             #csv_line.append(v24hn)
