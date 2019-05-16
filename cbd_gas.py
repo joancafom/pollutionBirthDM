@@ -185,14 +185,14 @@ if __name__ == '__main__':
 
                 if first_year_dump:
                     first_year_dump = False
-                    csv_writer_users.writerow(['Month', 'Concentration', 'UnitOfMeasurement'])
+                    csv_writer_users.writerow(['Month', 'Year', 'Concentration', 'UnitOfMeasurement'])
 
                 if average_per_month[k]:
                     average_per_month[k] = mean(v)
                 else:
                     average_per_month[k] = -1
 
-                csv_writer_users.writerow(['{}/{}'.format(prettify_month(k), year), average_per_month[k], 'µg/m3'])
+                csv_writer_users.writerow([prettify_month(k), year, average_per_month[k], 'µg/m3'])
 
                 print(average_per_month)
                 # Write and Persist the line to the file
