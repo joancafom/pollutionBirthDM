@@ -37,10 +37,11 @@ from statistics import mean
 '''
 
 # Some of the project's constants
+AIR_POLLUTANT = 'so2'
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-AIR_QUALITY_DATA_PATH = [BASE_DIR, 'data', 'air_quality', 'so2']
-AIR_QUALITY_PROCESSED_PATH = [BASE_DIR, 'data', 'air_quality', 'so2', 'processed']
-AIR_QUALITY_PROCESSED_FILE = [BASE_DIR, 'data', 'air_quality', 'so2', 'processed', 'air_processed.csv']
+AIR_QUALITY_DATA_PATH = [BASE_DIR, 'data', 'air_quality', AIR_POLLUTANT]
+AIR_QUALITY_PROCESSED_PATH = [BASE_DIR, 'data', 'air_quality', AIR_POLLUTANT, 'processed']
+AIR_QUALITY_PROCESSED_FILE = [BASE_DIR, 'data', 'air_quality', AIR_POLLUTANT, 'processed', 'air_processed.csv']
 
 
 ####################################################
@@ -191,7 +192,7 @@ if __name__ == '__main__':
 
                 if first_year_dump:
                     first_year_dump = False
-                    csv_writer_users.writerow(['Month', 'Year', 'Concentration', 'UnitOfMeasurement'])
+                    csv_writer_users.writerow(['Month', 'Year', '{} Concentration'.format(AIR_POLLUTANT), 'UnitOfMeasurement'])
 
                 if average_per_month[k]:
                     average_per_month[k] = mean(v)

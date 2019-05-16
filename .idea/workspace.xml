@@ -3,35 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="171dcd2f-f054-48da-b011-692ba447999b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/cbd_gas.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbd_gas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2013_1_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2013_2_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2013_3_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2013_4_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2013_5_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2013_6_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2014_1_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2014_2_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2014_3_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2014_4_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2014_5_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2014_6_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2015_1_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2015_2_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2015_3_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2015_4_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2015_5_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2015_6_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2016_1_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2016_2_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2016_3_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2016_4_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2017_1_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2017_2_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2017_3_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2017_4_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2017_5_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/ES_2017_6_timeseries.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/air_quality/processed/air_processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/air_quality/no2/processed/air_processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/air_quality/no2/processed/air_processed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/air_quality/so2/processed/air_processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/air_quality/so2/processed/air_processed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange2.ows" beforeDir="false" afterPath="$PROJECT_DIR$/orange2.ows" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,15 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pollutionBirthDM$cbd_gas.coverage" NAME="cbd_gas Coverage Results" MODIFIED="1558003025099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pollutionBirthDM$cbd_gas.coverage" NAME="cbd_gas Coverage Results" MODIFIED="1558023047895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="cbd_gas.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cbd_gas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="122" column="58" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
+            <state relative-caret-position="278">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -62,7 +36,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>data_of_interest</find>
+      <find>'so2'</find>
     </findStrings>
+    <replaceStrings>
+      <replace>AIR_POLLUTANT</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,7 +82,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,6 +177,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cbd_gas.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="122" column="58" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbd_gas.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="183" column="62" lean-forward="true" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
           <folding>
@@ -209,8 +197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cbd_gas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="122" column="58" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
+        <state relative-caret-position="278">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
