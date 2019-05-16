@@ -123,6 +123,7 @@ if __name__ == '__main__':
     if os.path.exists(air_quality_processed):
         os.remove(air_quality_processed)
 
+    first_year_dump = True
     for year in range(2013, 2018):
 
         average_per_month = {k: list() for k in range(1, 13)}
@@ -180,10 +181,11 @@ if __name__ == '__main__':
 
             csv_writer_users = csv.writer(processed, delimiter=',')
 
-            # DELETE
-            csv_writer_users.writerow(data_of_interest.keys())
-
             for k, v in average_per_month.items():
+
+                if first_year_dump:
+                    first_year_dump = False
+                    csv_writer_users.writerow(['Month', 'Concentration', 'UnitOfMeasurement'])
 
                 if average_per_month[k]:
                     average_per_month[k] = mean(v)
