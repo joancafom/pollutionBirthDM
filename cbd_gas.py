@@ -36,10 +36,17 @@ from statistics import mean
 
 '''
 
-# Constants
+# Some of the project's constants
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-AIR_QUALITY_DATA = [BASE_DIR, 'data', 'air_quality', 'ES_{}_timeseries.csv']
-AIR_QUALITY_PROCESSED = [BASE_DIR, 'data', 'air_quality', 'processed', 'air_processed.csv']
+AIR_QUALITY_DATA_PATH = [BASE_DIR, 'data', 'air_quality']
+AIR_QUALITY_PROCESSED_FILE = [BASE_DIR, 'data', 'air_quality', 'processed', 'air_processed.csv']
+
+
+####################################################
+##                                                ##
+##              AUXILIARY FUNCTIONS               ##
+##                                                ##
+####################################################
 
 '''
     Obtains a path using current SO path separator
@@ -62,23 +69,25 @@ def get_file_path(path_list):
         - The registered concentration of the gas is 0 or positive
         - Its concentration unit is 'µg/m3'
         - It is valid, even if it has some defects
-        - It is verified or at least, preliminary
-        - It was recorded after the last processed line
-        
+        - It is verified or at least, preliminary        
 '''
-def line_is_valid(time_unit, concentration, unit, date_begin, validity, verification, last_date_in_buffer):
+def line_is_valid(time_unit, concentration, unit, validity, verification):
 
     res = False
 
     if(time_unit == 'hour' and concentration >= 0 and
             unit == 'µg/m3' and validity > 0 and verification < 3):
-        if last_date_in_buffer is None or date_begin > last_date_in_buffer:
-            pass
         res = True
 
     return res
 
 
+'''
+    Returns a numeric representation of the month using
+    two numeric places:
+    
+                    01, 02, ..., 12
+'''
 def prettify_month(int_month):
 
     res = str(int_month)
@@ -91,10 +100,15 @@ def prettify_month(int_month):
 
 if __name__ == '__main__':
 
-    air_quality_data_path = get_file_path(AIR_QUALITY_DATA)
-    air_quality_processed = get_file_path(AIR_QUALITY_PROCESSED)
+    # Obtain a representation of both the path where
+    # the data is stored and the path to the file that
+    # will hold the processed result
+    air_quality_data_path = get_file_path(AIR_QUALITY_DATA_PATH)
+    air_quality_processed = get_file_path(AIR_QUALITY_PROCESSED_FILE)
 
-    d = {
+    # Dictionary containing the columns of interest the
+    # CSV
+    data_of_interest = {
         'AveragingTime': 10,
         'Concentration': 11,
         'UnitOfMeasurement': 12,
@@ -104,54 +118,70 @@ if __name__ == '__main__':
         'Verification': 16,
     }
 
+    # If a previous file existed, delete from disk to
+    # create a brand new
     if os.path.exists(air_quality_processed):
         os.remove(air_quality_processed)
 
     for year in range(2013, 2018):
 
-        air_quality_data_file = air_quality_data_path.format(year)
         average_per_month = {k: list() for k in range(1, 13)}
 
-        with open(air_quality_data_file, mode='r', encoding='utf-8') as datafile, \
-                open(air_quality_processed, mode='a+', encoding='utf-8') as processed:
+        # We are interested in all of the files containing
+        # data from different stations within the same year
 
-            # Both reader & writer
-            csv_reader = csv.reader(datafile, delimiter=',')
+        for f in os.listdir(air_quality_data_path):
+
+            # Files containing data will follow the pattern:
+            #   ES_YYYY_X_timeseries.csv
+
+            if f.startswith('ES_{}'.format(year)) and f.endswith('_timeseries.csv'):
+
+                air_quality_data_file = get_file_path([air_quality_data_path, f])
+                print('Accessing file {} '.format(air_quality_data_file))
+
+                with open(air_quality_data_file, mode='r', encoding='utf-8') as datafile:
+
+                    # Both reader & writer of the input .csv file to the output
+                    csv_reader = csv.reader(datafile, delimiter=',')
+
+                    line_counter = 0
+                    last_date_buffer = None
+                    for line in csv_reader:
+
+                        line_counter += 1
+
+                        # First line only contains header descriptor
+                        if line_counter == 1:
+                            continue
+
+                        # Extract fields' values
+                        line_time_unit = line[10]
+                        line_concentration = float(line[11])
+                        line_unit = line[12]
+                        line_date_begin = datetime.datetime.strptime(line[13], '%Y-%m-%d %H:%M:%S %z')
+                        line_date_end = datetime.datetime.strptime(line[14], '%Y-%m-%d %H:%M:%S %z')
+                        line_validity = int(line[15])
+                        line_verification = int(line[16])
+
+                        line_valid = line_is_valid(line_time_unit, line_concentration, line_unit, line_validity,
+                                            line_verification)
+
+                        if not line_valid:
+                            print('Line {} is invalid... Skipping to next line'.format(line_counter))
+                            continue
+
+                        last_date_buffer = line_date_begin
+
+                        line_month = line_date_begin.date().month
+                        average_per_month[line_month].append(line_concentration)
+
+        with open(air_quality_processed, mode='a+', encoding='utf-8') as processed:
+
             csv_writer_users = csv.writer(processed, delimiter=',')
 
             # DELETE
-            csv_writer_users.writerow(d.keys())
-
-            line_counter = 0
-            last_date_buffer = None
-            for line in csv_reader:
-
-                line_counter += 1
-
-                # First line only contains header descriptor
-                if line_counter == 1:
-                    continue
-
-                # Extract fields' values
-                line_time_unit = line[10]
-                line_concentration = float(line[11])
-                line_unit = line[12]
-                line_date_begin = datetime.datetime.strptime(line[13], '%Y-%m-%d %H:%M:%S %z')
-                line_date_end = datetime.datetime.strptime(line[14], '%Y-%m-%d %H:%M:%S %z')
-                line_validity = int(line[15])
-                line_verification = int(line[16])
-
-                line_valid = line_is_valid(line_time_unit, line_concentration, line_unit, line_date_begin, line_validity,
-                                    line_verification, last_date_buffer)
-
-                if not line_valid:
-                    print('Line {} is invalid... Skipping to next line'.format(line_counter))
-                    continue
-
-                last_date_buffer = line_date_begin
-
-                line_month = line_date_begin.date().month
-                average_per_month[line_month].append(line_concentration)
+            csv_writer_users.writerow(data_of_interest.keys())
 
             for k, v in average_per_month.items():
 
@@ -160,8 +190,8 @@ if __name__ == '__main__':
                 else:
                     average_per_month[k] = -1
 
-                csv_writer_users.writerow(['{}/{}'.format(k, year), average_per_month[k], 'µg/m3'])
+                csv_writer_users.writerow(['{}/{}'.format(prettify_month(k), year), average_per_month[k], 'µg/m3'])
 
-            print(average_per_month)
-            # Write and Persist the line to the file
-            processed.flush()
+                print(average_per_month)
+                # Write and Persist the line to the file
+                processed.flush()
