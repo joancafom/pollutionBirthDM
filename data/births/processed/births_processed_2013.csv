@@ -1,0 +1,389 @@
+Mes del Parto,Año del Parto,Lugar del Parto,Parto Asistido,Parto Normal o con Complicaciones,Parto con o sin Cesárea,A Término o Prematuro,Número de Semanas del Embarazo,Edad de la Madre en Años Cumplidos,Sexo del Nacido,Peso del Nacido,Clasificación del Bebé según su Peso,Número de Hijos Nacidos Vivos Totales a lo Largo de su Vida
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,26,37,Varón,2.575,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,29,32,Mujer,3.200,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,34,24,Varón,2.580,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,37,Varón,3.180,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,32,Mujer,2.955,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,34,31,Mujer,2.148,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,33,Mujer,3.590,Bebé normal,04
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,34,Mujer,3.080,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,34,Varón,3.370,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,23,Mujer,2.764,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,29,Varón,3.700,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,37,34,Varón,2.300,Bebé normal,03
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,37,34,Varón,2.100,Bebé normal,03
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,28,Varón,3.530,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,37,Mujer,3.340,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,37,22,Varón,2.540,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,32,35,Varón,2.380,Bebé normal,03
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,38,Varón,3.500,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,42,29,Varón,4.110,Bebé grande,03
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,36,Varón,4.300,Bebé grande,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Varón,3.960,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,27,Mujer,3.320,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,38,Mujer,3.190,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.085,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,25,Mujer,4.051,Bebé grande,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,30,Mujer,2.860,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,33,Varón,3.530,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,39,30,Mujer,3.080,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Mujer,2.650,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,34,Mujer,3.390,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,35,39,Mujer,3.810,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,30,Varón,3.250,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,35,Varón,3.890,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,39,38,Mujer,3.700,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,30,Varón,3.450,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,32,39,Varón,1.745,Bebé pequeño,03
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,32,39,Varón,1.615,Bebé pequeño,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,34,Mujer,2.670,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,26,Varón,2.665,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,37,Varón,3.060,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,22,Varón,3.405,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,37,Mujer,2.700,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,38,37,Varón,3.200,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,34,Mujer,3.080,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,26,Mujer,2.950,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,35,Varón,3.700,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,23,Mujer,3.700,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Mujer,3.500,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Mujer,3.860,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,31,Varón,3.100,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,31,Varón,2.780,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,21,Varón,3.220,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,24,Varón,2.974,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.550,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,28,Mujer,4.215,Bebé grande,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Varón,3.180,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,35,Varón,3.230,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,31,Varón,3.790,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Mujer,3.350,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,40,Varón,2.100,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,40,Mujer,2.300,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,33,Mujer,3.130,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,38,Mujer,3.070,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,27,Varón,3.425,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,34,Varón,3.200,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,31,Mujer,3.036,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,36,Mujer,3.690,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,40,21,Varón,3.810,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,40,Mujer,2.955,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Mujer,2.980,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Mujer,3.090,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,36,Mujer,3.875,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,32,Varón,3.780,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,31,Varón,3.490,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Mujer,3.400,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,35,32,Varón,2.200,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,35,32,Mujer,2.125,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,26,Mujer,3.560,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,34,Varón,2.620,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,35,Varón,3.170,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,35,Mujer,3.378,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,22,Mujer,2.810,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,32,34,Mujer,1.625,Bebé pequeño,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,36,Varón,4.100,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Mujer,3.290,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,38,Varón,3.150,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,38,Mujer,3.100,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,25,Varón,3.310,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,29,Varón,4.490,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,37,Mujer,3.235,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,24,Varón,3.050,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,35,Mujer,2.480,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,37,Mujer,3.180,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,32,Mujer,3.030,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,41,35,Varón,3.070,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,  ,42,Varón,2.280,Bebé normal,04
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,29,Mujer,2.900,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Varón,4.026,Bebé grande,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,29,Mujer,2.295,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,32,Mujer,3.400,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,33,Mujer,3.220,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,30,Varón,3.140,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,40,Varón,3.700,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,31,Varón,2.810,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,33,31,Mujer,1.925,Bebé pequeño,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,34,35,Mujer,2.414,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,32,Mujer,3.300,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,31,Mujer,3.550,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,22,Mujer,3.130,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,42,Varón,4.150,Bebé grande,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,36,Varón,3.950,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.345,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Mujer,3.133,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,22,Mujer,2.890,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,  ,31,Varón,1.410,Bebé pequeño,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,29,Varón,2.600,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,31,Varón,3.600,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,40,Varón,3.040,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,29,Mujer,3.190,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,33,Varón,3.250,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,28,Mujer,3.482,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,27,Mujer,2.500,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Mujer,2.690,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,38,Mujer,3.575,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,36,Mujer,2.945,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,30,Varón,3.310,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,21,Mujer,3.720,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,38,Mujer,3.175,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,38,39,Mujer,2.730,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Varón,3.585,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,41,Varón,3.840,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,31,Varón,3.375,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,40,Varón,3.160,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.750,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Varón,4.150,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Varón,3.450,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,30,Varón,3.250,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,35,Mujer,3.255,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,37,Mujer,3.860,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,38,22,Mujer,3.470,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,42,38,Mujer,3.530,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,33,Mujer,2.764,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,34,Varón,3.370,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,33,35,Varón,1.965,Bebé pequeño,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,  ,37,Mujer,1.770,Bebé pequeño,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,36,Mujer,3.130,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,28,Mujer,3.045,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Varón,2.800,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,35,Mujer,3.645,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,34,Mujer,2.990,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,26,Mujer,3.305,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,29,Mujer,3.350,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,40,Mujer,3.180,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,28,Varón,4.120,Bebé grande,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,34,Varón,3.300,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,36,Mujer,3.320,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,35,36,Varón,2.380,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,36,27,Mujer,2.660,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,23,Varón,3.480,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,29,Mujer,2.760,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,  ,37,Mujer,2.030,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,  ,37,Varón,2.130,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,39,22,Mujer,3.130,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,42,Mujer,3.148,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,32,Varón,2.890,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,33,Mujer,3.090,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,32,Mujer,3.000,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Mujer,3.540,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,35,Mujer,3.150,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,41,20,Mujer,3.750,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,34,Mujer,3.430,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,39,Varón,4.270,Bebé grande,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,25,Mujer,3.630,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,33,Varón,3.650,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,29,Varón,3.225,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,38,Varón,3.560,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,32,Mujer,2.910,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,42,23,Varón,3.935,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,33,Varón,3.130,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,37,Varón,3.750,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,39,36,Mujer,3.005,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Mujer,3.220,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,37,Varón,3.530,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,32,Varón,3.035,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Varón,3.765,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,29,Varón,2.720,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,32,Mujer,2.654,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,41,34,Varón,4.050,Bebé grande,02
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,36,Varón,3.600,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,37,Varón,3.090,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,28,Mujer,3.200,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,28,Varón,2.558,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,34,Varón,3.505,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,34,Varón,4.015,Bebé grande,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,22,Varón,3.460,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,26,Varón,2.550,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,34,Mujer,2.770,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,32,Varón,3.058,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,27,Mujer,3.278,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,24,Varón,3.430,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,26,Varón,3.574,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,38,25,Varón,3.150,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,39,38,Varón,3.150,Bebé normal,04
+09,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,36,Mujer,3.095,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,23,Varón,3.440,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,32,Varón,2.990,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,32,Mujer,2.670,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,29,Mujer,3.200,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,28,Mujer,2.848,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,25,Varón,3.272,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,37,Mujer,2.680,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,41,Mujer,3.620,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,35,Mujer,3.500,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,36,39,Varón,2.970,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,36,39,Varón,2.860,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,29,Mujer,3.490,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,25,Mujer,2.830,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Mujer,2.690,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,32,Varón,3.410,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,  ,30,Varón,2.480,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,  ,30,Varón,2.750,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,  ,33,Mujer,2.160,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,  ,33,Varón,1.950,Bebé pequeño,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,35,Mujer,3.450,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,33,31,Varón,2.200,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,33,31,Varón,1.700,Bebé pequeño,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,34,32,Mujer,2.111,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,26,Mujer,3.470,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Mujer,2.805,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,38,Varón,4.670,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,38,Mujer,5.200,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,25,Varón,2.980,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,31,Varón,3.110,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,28,Mujer,2.675,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,26,Varón,3.940,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Mujer,3.605,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,24,Mujer,3.515,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,39,Varón,3.868,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,41,Varón,2.670,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,41,Mujer,2.310,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,35,Varón,3.190,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,35,Varón,4.000,Bebé grande,03
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,25,Varón,2.940,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,21,Varón,3.335,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,32,Varón,3.400,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Varón,2.960,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,33,Mujer,3.650,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,33,Varón,3.390,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.190,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,28,Varón,2.345,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Mujer,3.280,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,29,Varón,2.915,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,25,Mujer,2.845,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,37,27,Varón,2.500,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,37,27,Varón,3.080,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,41,36,Varón,3.375,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,33,Varón,3.675,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,33,31,Varón,2.230,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,34,Varón,3.240,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,37,31,Mujer,2.330,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,35,Mujer,3.050,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Mujer,3.168,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,35,Mujer,3.008,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,37,Mujer,3.175,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,31,Varón,3.200,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,23,Varón,3.715,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,34,Varón,3.040,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,35,Mujer,4.100,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,25,Varón,3.470,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,35,Varón,3.680,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,28,Varón,2.900,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,36,Mujer,2.850,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,35,Varón,3.340,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,44,30,Mujer,2.960,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,37,36,Varón,3.700,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,30,Mujer,3.480,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,34,Varón,2.875,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,40,Mujer,3.332,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,36,33,Varón,2.175,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,39,38,Varón,3.295,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,30,Varón,3.566,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.080,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,19,Varón,2.750,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,37,38,Mujer,2.900,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.325,Bebé normal,03
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,29,Varón,3.430,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,35,Varón,3.400,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,36,31,Mujer,2.190,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,36,31,Varón,2.010,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,31,Varón,3.120,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,43,Mujer,3.000,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,29,Varón,3.260,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,22,Varón,3.535,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,33,Mujer,2.560,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,36,Varón,2.400,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,30,Mujer,3.740,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,17,Mujer,3.830,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,30,Varón,3.740,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,34,Varón,4.130,Bebé grande,04
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,29,Varón,2.780,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,32,Mujer,3.710,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,23,Mujer,3.870,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,34,32,Varón,2.400,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,23,Mujer,3.460,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,32,Varón,3.955,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,  ,23,Mujer,2.880,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,33,Varón,3.710,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,  ,36,Varón,3.450,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,18,Varón,2.810,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,29,Varón,4.160,Bebé grande,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,33,Mujer,2.740,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,25,Varón,3.520,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,19,Varón,3.100,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,  ,30,Varón,3.060,Bebé normal,01
+10,2013,Domicilio Particular,Sí,Normal,Sin cesárea,Prematuro,  ,40,Varón,2.280,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,35,Mujer,3.560,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,18,Varón,3.410,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,18,Varón,2.490,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,35,Mujer,3.300,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,32,Varón,3.190,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,41,25,Mujer,3.050,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,40,37,Varón,3.470,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,25,Varón,3.830,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.370,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,35,35,Varón,2.350,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,35,35,Varón,2.270,Bebé normal,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,25,Varón,4.086,Bebé grande,02
+09,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,32,Varón,3.800,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,26,Varón,3.740,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,28,Varón,3.115,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Mujer,3.355,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,30,Varón,4.025,Bebé grande,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,31,Mujer,3.350,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,37,Mujer,3.260,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,36,Varón,3.910,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,22,Mujer,2.915,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,42,29,Varón,3.185,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,35,Mujer,2.975,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,36,Varón,3.678,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,  ,36,Varón,2.440,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,37,Varón,3.150,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,36,Mujer,3.166,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,35,Varón,2.460,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,37,Varón,3.430,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,35,Mujer,3.780,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,37,Varón,3.200,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,36,25,Varón,2.800,Bebé normal,01
+09,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,  ,29,Mujer,2.100,Bebé normal,02
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,33,Varón,2.770,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,39,38,Mujer,2.850,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,28,Mujer,3.885,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,  ,37,Varón,3.300,Bebé normal,01
+10,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,31,Mujer,3.090,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,29,Mujer,3.160,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,29,Varón,3.778,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,38,40,Mujer,2.660,Bebé normal,03
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,41,Mujer,3.500,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,40,Mujer,3.335,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,31,Mujer,2.520,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,31,Varón,2.860,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,34,Mujer,3.080,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,38,Varón,3.560,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,32,Varón,2.990,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,32,Varón,4.400,Bebé grande,02
+11,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,41,35,Varón,3.605,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,39,38,Mujer,3.115,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,39,35,Mujer,3.100,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,31,Varón,3.010,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,37,Mujer,2.200,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,41,26,Mujer,3.628,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,25,Varón,3.150,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,37,Varón,3.000,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,30,Mujer,3.145,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,32,Varón,3.680,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Con cesárea,A término,37,37,Mujer,2.880,Bebé normal,03
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,40,Mujer,2.490,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,38,42,Varón,3.565,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,29,Varón,2.740,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,31,Varón,3.240,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,37,27,Mujer,2.840,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Con complicaciones,Sin cesárea,A término,38,32,Mujer,3.170,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,  ,35,Varón,3.670,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,41,Mujer,3.150,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,Prematuro,36,33,Varón,2.550,Bebé normal,01
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,Prematuro,36,33,Varón,2.700,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Sin cesárea,A término,40,31,Varón,3.000,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Con complicaciones,Con cesárea,A término,40,29,Mujer,3.255,Bebé normal,02
+11,2013,Centro Sanitario,Sí,Normal,Con cesárea,Prematuro,29,32,Varón,3.555,Bebé normal,02

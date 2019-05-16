@@ -146,6 +146,9 @@ def prettify_peson(int_peson):
     
     if int_peson != '    ':
         res = int_peson[0:1] + '.' + int_peson[1:4]
+    
+    if res == '.':
+        res = ''
 
     return res
 
@@ -153,7 +156,7 @@ def classify_peson(int_peson):
 
     res = int_peson
     
-    if int_peson != '    ':
+    if int_peson != '    ' and int_peson != '':
     
         if float(int_peson) <= 2.000:
             res = 'Bebé pequeño'
@@ -174,7 +177,7 @@ if __name__ == '__main__':
     if os.path.exists(births_processed):
         os.remove(births_processed)
     
-    births_data_file = births_data_path.format(2017)
+    births_data_file = births_data_path.format(2013)
 
     with open(births_data_file, mode='r', encoding='utf-8') as datafile, \
             open(births_processed, mode='a+', encoding='utf-8') as processed:
