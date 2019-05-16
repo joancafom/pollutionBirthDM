@@ -1,0 +1,2 @@
+Countrycode,Namespace,AirQualityNetwork,AirQualityStation,AirQualityStationEoICode,SamplingPoint,SamplingProcess,Sample,AirPollutant,AirPollutantCode,AveragingTime,Concentration,UnitOfMeasurement,DatetimeBegin,DatetimeEnd,Validity,Verification
+ES,ES.BDCA.AQD,NET_ES201A,STA_ES1644A,ES1644A,SP_41091019_8_8,SPP_41091019_8_8.1,SAM_41091019_8_8,NO2,http://dd.eionet.europa.eu/vocabulary/aq/pollutant/8,hour,14,µg/m3,2015-01-01 00:00:00 +01:00,2015-01-01 01:00:00 +01:00,1,1
