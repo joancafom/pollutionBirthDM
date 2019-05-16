@@ -38,8 +38,9 @@ from statistics import mean
 
 # Some of the project's constants
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-AIR_QUALITY_DATA_PATH = [BASE_DIR, 'data', 'air_quality']
-AIR_QUALITY_PROCESSED_FILE = [BASE_DIR, 'data', 'air_quality', 'processed', 'air_processed.csv']
+AIR_QUALITY_DATA_PATH = [BASE_DIR, 'data', 'air_quality', 'so2']
+AIR_QUALITY_PROCESSED_PATH = [BASE_DIR, 'data', 'air_quality', 'so2', 'processed']
+AIR_QUALITY_PROCESSED_FILE = [BASE_DIR, 'data', 'air_quality', 'so2', 'processed', 'air_processed.csv']
 
 
 ####################################################
@@ -104,6 +105,7 @@ if __name__ == '__main__':
     # the data is stored and the path to the file that
     # will hold the processed result
     air_quality_data_path = get_file_path(AIR_QUALITY_DATA_PATH)
+    air_quality_processed_path = get_file_path(AIR_QUALITY_PROCESSED_PATH)
     air_quality_processed = get_file_path(AIR_QUALITY_PROCESSED_FILE)
 
     # Dictionary containing the columns of interest the
@@ -117,6 +119,10 @@ if __name__ == '__main__':
         'Validity': 15,
         'Verification': 16,
     }
+
+    # Create a directory where to save the processed files
+    if not os.path.exists(air_quality_processed_path):
+        os.makedirs(air_quality_processed_path)
 
     # If a previous file existed, delete from disk to
     # create a brand new
