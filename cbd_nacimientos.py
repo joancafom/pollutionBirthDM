@@ -272,6 +272,7 @@ if __name__ == '__main__':
         #titles_list.append('País de Nacionalidad del Nacido')
         titles_list.append('Sexo del Nacido')
         titles_list.append('Peso del Nacido')
+        titles_list.append('Clasificación del Bebé según su Peso')
         #titles_list.append('Indicador de si el Nacido Vivió Más de 24 Horas')
         #titles_list.append('Indicador de si el Nacido Nació Vivo o Muerto')
         #titles_list.append('Indicador de si se Practicó Autopsia al Nacido')
