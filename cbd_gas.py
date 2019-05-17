@@ -2,6 +2,7 @@ import os
 import csv
 import datetime
 from statistics import mean
+from collections import deque
 
 '''
     CSV Structure
@@ -37,7 +38,9 @@ from statistics import mean
 '''
 
 # Some of the project's constants
-AIR_POLLUTANT = 'so2'
+AIR_POLLUTANT = 'no2'
+STARTING_YEAR = 2013
+ENDING_YEAR = 2017
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 AIR_QUALITY_DATA_PATH = [BASE_DIR, 'data', 'air_quality', AIR_POLLUTANT]
 AIR_QUALITY_PROCESSED_PATH = [BASE_DIR, 'data', 'air_quality', AIR_POLLUTANT, 'processed']
@@ -99,7 +102,6 @@ def prettify_month(int_month):
 
     return res
 
-
 if __name__ == '__main__':
 
     # Obtain a representation of both the path where
@@ -108,6 +110,9 @@ if __name__ == '__main__':
     air_quality_data_path = get_file_path(AIR_QUALITY_DATA_PATH)
     air_quality_processed_path = get_file_path(AIR_QUALITY_PROCESSED_PATH)
     air_quality_processed = get_file_path(AIR_QUALITY_PROCESSED_FILE)
+
+    # List containing last three months pollution data
+    pollution_acc = deque()
 
     # Dictionary containing the columns of interest the
     # CSV
@@ -131,7 +136,7 @@ if __name__ == '__main__':
         os.remove(air_quality_processed)
 
     first_year_dump = True
-    for year in range(2013, 2018):
+    for year in range(STARTING_YEAR, ENDING_YEAR + 1):
 
         average_per_month = {k: list() for k in range(1, 13)}
 
@@ -188,19 +193,28 @@ if __name__ == '__main__':
 
             csv_writer_users = csv.writer(processed, delimiter=',')
 
-            for k, v in average_per_month.items():
+            for k, v in sorted(average_per_month.items()):
 
                 if first_year_dump:
                     first_year_dump = False
-                    csv_writer_users.writerow(['Month', 'Year', '{} Concentration'.format(AIR_POLLUTANT), 'UnitOfMeasurement'])
+                    csv_writer_users.writerow(['Month', 'Year', '{} Concentration'.format(AIR_POLLUTANT), '{} TrimestralConcentration'.format(AIR_POLLUTANT), 'UnitOfMeasurement'])
 
                 if average_per_month[k]:
                     average_per_month[k] = mean(v)
                 else:
                     average_per_month[k] = -1
 
-                csv_writer_users.writerow([prettify_month(k), year, average_per_month[k], 'µg/m3'])
+                trimestral_pollution = None
 
-                print(average_per_month)
+                if len(pollution_acc) == 3:
+                    pollution_acc.popleft()
+
+                pollution_acc.append(average_per_month[k])
+
+                if len(pollution_acc) == 3:
+                    trimestral_pollution = mean(pollution_acc)
+
+                csv_writer_users.writerow([prettify_month(k), year, average_per_month[k], trimestral_pollution, 'µg/m3'])
+
                 # Write and Persist the line to the file
                 processed.flush()
