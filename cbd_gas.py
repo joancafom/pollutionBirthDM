@@ -102,6 +102,18 @@ def prettify_month(int_month):
 
     return res
 
+'''
+    Modifies the input date representation so that python
+    parses it correctly
+'''
+def correct_strdate(input_strdate):
+    res = input_strdate
+
+    if ":" == input_strdate[-3:-2]:
+        res = input_strdate[:-3] + input_strdate[-2:]
+
+    return res
+
 if __name__ == '__main__':
 
     # Obtain a representation of both the path where
@@ -172,8 +184,9 @@ if __name__ == '__main__':
                         line_time_unit = line[10]
                         line_concentration = float(line[11])
                         line_unit = line[12]
-                        line_date_begin = datetime.datetime.strptime(line[13], '%Y-%m-%d %H:%M:%S %z')
-                        line_date_end = datetime.datetime.strptime(line[14], '%Y-%m-%d %H:%M:%S %z')
+                        line_date_begin = datetime.datetime.strptime(correct_strdate(line[13]), '%Y-%m-%d %H:%M:%S %z')
+                        line_date_end = datetime.datetime.strptime(correct_strdate(line[14]), '%Y-%m-%d %H:%M:%S %z')
+
                         line_validity = int(line[15])
                         line_verification = int(line[16])
 
